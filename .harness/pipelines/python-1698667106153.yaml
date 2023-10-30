@@ -8,7 +8,7 @@ pipeline:
       codebase:
         build: <+input>
         connectorRef: account.Github_OAuth_1698667091809
-        repoName: python
+        repoName: ayushkh1012/python
   stages:
     - stage:
         identifier: build
