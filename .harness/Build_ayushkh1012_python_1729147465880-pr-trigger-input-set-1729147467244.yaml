@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_ayushkh1012_python_1729147465880-pr-trigger-input-set
+  identifier: Build_ayushkh1012_python_1729147465880prtriggerinputset
+  orgIdentifier: org_check
+  projectIdentifier: Ayush_Test
+  pipeline:
+    identifier: Build_ayushkh1012_python_1729147465880
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
